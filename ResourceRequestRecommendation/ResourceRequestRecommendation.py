@@ -52,8 +52,9 @@ class ResourceRequestRecommendation(object):
         self.end_time = end_time
         self.code_filename = code_filename
         self.aggregate_window = 60000  # unit in ms to aggregate
-        self.dimensions = '[{"userId":"1008681110180877","cluster":"c020de32945fd4e10a0db93c26fc2853c",\
-                            "namespace":"default","app":"linux","type":"Deployment","pod":"linux-5ff496fc99-j7v58"}]'
+        self.endpoint = f'metrics.cn-wulanchabu.aliyuncs.com'
+        self.dimensions = '[{"userId":"1008681110180877","cluster":"cb5eb244afbd545c7a6e282adb0b59c0d",\
+                            "namespace":"default","app":"linux","type":"Deployment","pod":"linux-5ff496fc99-f2dzp"}]'
         self.ALIBABA_CLOUD_ACCESS_KEY_ID = 'ALIBABA_CLOUD_ACCESS_KEY_ID'  # paste the key_id here
         self.ALIBABA_CLOUD_ACCESS_KEY_SECRET = 'ALIBABA_CLOUD_ACCESS_KEY_SECRET'  # paste the key_secret here
 
@@ -235,7 +236,7 @@ class ResourceRequestRecommendation(object):
             access_key_id=self.ALIBABA_CLOUD_ACCESS_KEY_ID,
             access_key_secret=self.ALIBABA_CLOUD_ACCESS_KEY_SECRET
         )
-        config.endpoint = f'metrics.cn-beijing.aliyuncs.com'
+        config.endpoint = self.endpoint
         client = Cms20190101Client(config)
         
         describe_metric_list_request_list = [cms_20190101_models.DescribeMetricListRequest(
