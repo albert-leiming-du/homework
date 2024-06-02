@@ -1,0 +1,47 @@
+youtube_page_list = [
+    'https://www.youtube.com/watch?v=VhBsIjlCjnA',
+    'https://www.youtube.com/watch?v=GmKJnzatNug',
+    'https://www.youtube.com/watch?v=9SV_Myw4sQY',
+    'https://www.youtube.com/watch?v=U7Pkzk6O2Nw',
+    'https://www.youtube.com/watch?v=Cqg8tQH4U8M'
+    ]
+
+bilibili_page_list = [
+    'https://www.bilibili.com/video/BV1VH4y1K7qH/?spm_id_from=333.1007.tianma.2-1-3.click&vd_source=eefe6abd297edf46bae8bcd9d77fc4e9',
+    'https://www.bilibili.com/video/BV1aC411V72t/?spm_id_from=333.1007.tianma.2-1-3.click',
+    'https://www.bilibili.com/video/BV16N4y1x7iW/?spm_id_from=333.788.recommend_more_video.6&vd_source=eefe6abd297edf46bae8bcd9d77fc4e9',
+    'https://www.bilibili.com/video/BV1HC4y1572c/?spm_id_from=333.788.recommend_more_video.4&vd_source=eefe6abd297edf46bae8bcd9d77fc4e9',
+    'https://www.bilibili.com/video/BV1NC4y1576g/?spm_id_from=333.788.recommend_more_video.-1&vd_source=eefe6abd297edf46bae8bcd9d77fc4e9'
+    ]
+
+github_list = [
+    'https://github.com/apache/spark',
+    'https://github.com/apache/echarts',
+    'https://github.com/apache/kafka',
+    'https://github.com/apache/airflow',
+    'https://github.com/apache/dubbo'
+    ]
+
+gitee_list = [
+    'https://gitee.com/mirrors/spark-project',
+    'https://gitee.com/mirrors/Redka',
+    'https://gitee.com/mirrors/gobuilder',
+    'https://gitee.com/mirrors/AIOS-LLM',
+    'https://gitee.com/mirrors/acast'
+    ]
+
+baidu_list = [
+    'https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=shide%20ne%20&fenlei=256&rsv_pq=0x924ca6040010fcb1&rsv_t=1e50cMaT2HTVdqIjsHRqX%2B%2F58Lkn%2F%2FhMH6oAWp93%2BzX1lOZRcnsa3gwov%2FXt&rqlang=en&rsv_dl=tb&rsv_enter=1&rsv_sug3=9&rsv_sug1=8&rsv_sug7=100&rsv_sug2=0&rsv_btype=i&inputT=976&rsv_sug4=976',
+    'https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E5%A4%A7%E6%95%B0%E6%8D%AE&fenlei=256&oq=test&rsv_pq=95d26ce4000871d7&rsv_t=06f4Uj9fN0yI41Z1WIwDsv8lG50HsgfbCRAF4b5fMcFcOp%2FxLepen2tQiAc&rqlang=cn&rsv_enter=1&rsv_dl=tb&rsv_btype=t&inputT=7121&rsv_sug3=31&rsv_sug1=25&rsv_sug7=101&rsv_sug2=0&rsv_sug4=7993',
+    'https://www.baidu.com/s?rsv_idx=1&wd=%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E4%B8%BB%E8%A6%81%E5%AD%A6%E4%BB%80%E4%B9%88&fenlei=256&usm=3&ie=utf-8&base_query=%E5%A4%A7%E6%95%B0%E6%8D%AE&tag_key=%E6%8A%80%E6%9C%AF%E4%B8%BB%E8%A6%81%E5%AD%A6%E4%BB%80%E4%B9%88&rsv_dl=re_dl_tag_2&rsv_pq=91ba608c000a2595&oq=%E5%A4%A7%E6%95%B0%E6%8D%AE&rsv_t=181dpsMl9%2FuozHiU4JJ%2F7SEh7l7QGpm3p5ygRHqZ3XbXws3MfxkJwFrkQSY',
+    'https://www.baidu.com/s?rsv_idx=1&wd=%E5%A4%A7%E6%95%B0%E6%8D%AE%E4%B8%8E%E4%BC%9A%E8%AE%A1&fenlei=256&usm=3&ie=utf-8&base_query=%E5%A4%A7%E6%95%B0%E6%8D%AE&tag_key=%E4%BC%9A%E8%AE%A1&rsv_dl=re_dl_tag_3&rsv_pq=91ba608c000a2595&oq=%E5%A4%A7%E6%95%B0%E6%8D%AE&rsv_t=bc23dfR9O5yc68J0%2BpdVorZTY2qxEIkYeKo7LE5%2B8wnWgJN3CZn5j94Pbxo',
+    'https://www.baidu.com/s?rsv_idx=1&wd=%E5%A4%A7%E6%95%B0%E6%8D%AE%E4%B8%8E%E8%B4%A2%E5%8A%A1%E7%AE%A1%E7%90%86&fenlei=256&usm=3&ie=utf-8&base_query=%E5%A4%A7%E6%95%B0%E6%8D%AE&tag_key=%E8%B4%A2%E5%8A%A1%E7%AE%A1%E7%90%86&rsv_dl=re_dl_tag_4&rsv_pq=91ba608c000a2595&oq=%E5%A4%A7%E6%95%B0%E6%8D%AE&rsv_t=b886KQDvPqKcddCaSHu%2FWYBAdJp4pmjI%2Bb4pdoTnYjBz5zU9sxx2b58JKuU'
+    ]
+
+google_list = [
+    'https://www.google.com.hk/search?q=%E5%A4%A7%E6%95%B0%E6%8D%AE&newwindow=1&sca_esv=7e6ba2047fcb60f3&sca_upv=1&sxsrf=ACQVn0_MO7_SPc4l879V-j7rWEiLyg3oIQ%3A1713343673095&source=hp&ei=uYwfZtufA5Sg0-kPi7aY4Ag&iflsig=ANes7DEAAAAAZh-ayUP9IKDTh_8cQIzA0PMFhVSMYjY-&ved=0ahUKEwib4IrI7siFAxUU0DQHHQsbBowQ4dUDCBU&uact=5&oq=%E5%A4%A7%E6%95%B0%E6%8D%AE&gs_lp=Egdnd3Mtd2l6IgnlpKfmlbDmja4yBhAAGAgYHjIGEAAYBRgeSLIZUIYJWPwXcAZ4AJABAZgBgQKgAYEPqgEDMi04uAEDyAEA-AEBmAILoALxCagCCsICBxAjGCcY6gLCAgQQIxgnwgILEAAYgAQYkQIYigXCAhEQLhiABBiRAhjRAxjHARiKBcICBRAAGIAEwgIFEC4YgATCAgsQLhiABBjRAxjHAcICChAjGIAEGCcYigXCAgcQLhiABBgKwgIHEAAYgAQYCsICExAuGIAEGMcBGJgFGAoYnAUYrwHCAgYQLhgKGB7CAgQQABgewgIGEAAYChgewgIIEC4YBRgKGB7CAggQABgIGAoYHsICCBAAGIAEGKIEmAMKkgcFNi4wLjWgB7JM&sclient=gws-wiz',
+    'https://www.google.com.hk/search?q=spark&newwindow=1&sca_esv=7e6ba2047fcb60f3&sca_upv=1&sxsrf=ACQVn08VDrBgFlI9T_IeeApdLN-aoz5Cjg%3A1713343677483&ei=vYwfZo-LHZbg2roPnaeC-AM&ved=0ahUKEwjP3ZjK7siFAxUWsFYBHZ2TAD8Q4dUDCBA&uact=5&oq=spark&gs_lp=Egxnd3Mtd2l6LXNlcnAiBXNwYXJrMgQQIxgnMgoQIxiABBgnGIoFMgQQIxgnMhAQLhiABBjRAxhDGMcBGIoFMgoQABiABBgUGIcCMgUQABiABDIIEC4YgAQY1AIyBRAAGIAEMggQLhiABBjUAjIFEAAYgARIkxJQywZYxxBwAngBkAEBmAHsAaAB0AqqAQMyLTa4AQPIAQD4AQGYAgagArgHqAIKwgIKEAAYsAMY1gQYR8ICBxAjGCcY6gLCAgsQLhiABBjRAxjHAcICERAuGIAEGJECGNEDGMcBGIoFwgIKEAAYgAQYQxiKBcICBRAuGIAEwgILEC4YgAQYxwEYrwGYAwWIBgGQBgKSBwUyLjAuNKAHm0w&sclient=gws-wiz-serp',
+    'https://www.google.com.hk/search?q=python&newwindow=1&sca_esv=7e6ba2047fcb60f3&sca_upv=1&sxsrf=ACQVn0-aJ3lEqcSrzEmTeWre-Hh0nYflwg%3A1713343721869&ei=6YwfZuHQNOrl2roPmbmUqAs&ved=0ahUKEwih6a3f7siFAxXqslYBHZkcBbUQ4dUDCBA&uact=5&oq=python&gs_lp=Egxnd3Mtd2l6LXNlcnAiBnB5dGhvbjIEECMYJzIEECMYJzIEECMYJzIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIIEAAYgAQYywEyBRAAGIAEMggQABiABBjLATIFEAAYgAQyBRAAGIAESMkbUABYihpwBngBkAECmAGZAqAB-xKqAQQyLTEwuAEDyAEA-AEBmAINoAKWDagCFMICCxAAGIAEGJECGIoFwgIFEC4YgATCAgoQABiABBgUGIcCwgIHECMYsQIYJ8ICBxAAGIAEGAqYAwu6BgYIARABGAGSBwU2LjAuN6AHyWU&sclient=gws-wiz-serp',
+    'https://www.google.com.hk/search?q=%E7%9C%9F%E7%9A%84%E5%90%97&newwindow=1&sca_esv=7e6ba2047fcb60f3&sca_upv=1&sxsrf=ACQVn09RsJdg8NmDbkpez4i0m5YBOMRSWw%3A1713343767741&ei=F40fZuHSLObS2roP9fim8AQ&ved=0ahUKEwihup317siFAxVmqVYBHXW8CU4Q4dUDCBA&uact=5&oq=%E7%9C%9F%E7%9A%84%E5%90%97&gs_lp=Egxnd3Mtd2l6LXNlcnAiCeecn-eahOWQlzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMggQABiABBiiBDIIEAAYgAQYogRI-RpQiAVYgBVwAngBkAEEmAG6BKABuSSqAQoyLTExLjAuMy4xuAEDyAEA-AEBmAIIoAKnDKgCEsICBxAjGLADGCfCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAsICBxAjGCcY6gLCAhMQABiABBhDGLQCGIoFGOoC2AEDwgIWEC4YgAQYQxi0AhjIAxiKBRjqAtgBAsICGRAuGIAEGEMY1AIYtAIYyAMYigUY6gLYAQLCAgoQIxiABBgnGIoFwgIEECMYJ8ICExAuGIAEGNEDGEMY1AIYxwEYigXCAgsQLhiABBjRAxjHAcICChAuGIAEGEMYigXCAgUQLhiABMICCxAuGIAEGJECGIoFwgIREC4YgAQYkQIYxwEYigUYrwHCAgoQABiABBhDGIoFwgINEC4YgAQYQxjUAhiKBcICGhAuGIAEGJECGIoFGJcFGNwEGN4EGOAE2AEEwgIgEC4YgAQYkQIYxwEYigUYrwEYlwUY3AQY3gQY4ATYAQTCAgsQABiABBixAxiDAZgDC4gGAZAGEboGBggBEAEYCboGBggCEAEYCLoGBggDEAEYAboGBggEEAEYFJIHBTIuMC42oAfXvwE&sclient=gws-wiz-serp',
+    'https://www.google.com.hk/search?q=%E5%A5%BD%E7%9A%84&newwindow=1&sca_esv=7e6ba2047fcb60f3&sca_upv=1&sxsrf=ACQVn0-YO5ucO0rJIA2uQUWWrhlDtFKkjA%3A1713343780661&ei=JI0fZvX9J-_Q2roP590j&ved=0ahUKEwj1n7L77siFAxVvqFYBHefuCAAQ4dUDCBA&uact=5&oq=%E5%A5%BD%E7%9A%84&gs_lp=Egxnd3Mtd2l6LXNlcnAiBuWlveeahDIFEAAYgAQyBRAAGIAEMhQQLhiABBjHARiYBRiZBRiOBRivATIFEAAYgAQyBRAAGIAEMgsQLhiABBjHARivATIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI9xNQ6whYsBJwA3gBkAEBmAHkAqABnA6qAQUyLTYuMbgBA8gBAPgBAZgCBqAC-waoAgrCAgoQABiwAxjWBBhHwgIHECMYJxjqAsICBBAjGCfCAhEQLhiABBiRAhjRAxjHARiKBcICCxAuGIAEGJECGIoFwgILEC4YgAQY0QMYxwHCAgUQLhiABMICChAjGIAEGCcYigXCAg4QLhiABBjHARiOBRivAcICCBAuGIAEGNQCmAMFiAYBkAYKkgcHMy4wLjIuMaAHrkk&sclient=gws-wiz-serp',
+    ]
