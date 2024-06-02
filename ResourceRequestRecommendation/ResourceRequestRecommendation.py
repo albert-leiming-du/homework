@@ -54,7 +54,7 @@ class ResourceRequestRecommendation(object):
         self.aggregate_window = 60000  # unit in ms to aggregate
         self.endpoint = f'metrics.cn-wulanchabu.aliyuncs.com'
         self.dimensions = '[{"userId":"1008681110180877","cluster":"cb5eb244afbd545c7a6e282adb0b59c0d",\
-                            "namespace":"default","app":"linux","type":"Deployment","pod":"linux-5ff496fc99-f2dzp"}]'
+                            "namespace":"default","app":"linux","type":"Deployment","pod":"linux-5dd5d6c4f9-2rkm9"}]'
         self.ALIBABA_CLOUD_ACCESS_KEY_ID = 'ALIBABA_CLOUD_ACCESS_KEY_ID'  # paste the key_id here
         self.ALIBABA_CLOUD_ACCESS_KEY_SECRET = 'ALIBABA_CLOUD_ACCESS_KEY_SECRET'  # paste the key_secret here
 
